@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAmBA,AAAA,MAAM,CAAC;EAfH,OAAO,EAAE,IAAI;EACb,cAAc,EAeO,GAAG;EAdxB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EAevB,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "Odin-framework.scss"
+    ],
+    "names": [],
+    "file": "Odin-framework.css"
+}

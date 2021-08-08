@@ -1,0 +1,193 @@
+$text-gold-color :#CD9648;
+$main-font :  "HelveticaNeue", Thin;
+$text-white : white;
+$bold-font : "HelveticaNeue", Bold;
+
+@mixin b-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: rgb(135, 135, 135);
+    font-family: $main-font; 
+    font-weight: lighter;
+    font-size: 1.28vw;
+    line-height: 2vw;
+}
+
+
+header h1 {
+    color: $text-gold-color;
+}
+
+.Odin-logo {
+    width: 5vw;
+    height: 5vw;
+}
+
+.Odin {
+    width: 14vw;
+    height: 2.3vw;
+}
+
+.Odin-stamp {
+    width: 40%;
+}
+
+.nav-info {
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    font-family: $bold-font;
+   font-weight: 600;
+    font-size: 1.3vw;
+    
+    
+}
+
+.s1 {
+    font-size: 1.6vw;
+}
+
+.s1 h1 {
+ color: $text-gold-color;  
+ font-family: $main-font; 
+ font-weight: lighter;
+
+}
+
+h2, h3 {
+    font-family: $main-font;
+}
+
+.c-update {
+    color: $text-gold-color; 
+    font-size: large;
+}
+
+.b-1 {
+    @include b-align();
+    background-color: #6EBFC2;
+    border: none;
+    border-radius: 0.3vw;
+    width: 18vw;
+    height: 3.8vw;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.85);
+    
+}
+
+.b-1:hover {
+    background-color: #6ebfc2d2;
+}
+
+.button-link {
+    
+    text-decoration: none;
+    color: $text-white;
+    font-size: 0.75vw;
+}
+
+article {
+    color: rgb(61, 61, 61);
+}
+
+.CODING-LANGUAGES {
+    background-color: rgb(238, 238, 238);
+}
+
+.languages {
+background-color: rgba(255, 255, 255, 0.885);
+box-shadow: 1px 1px 1px 1px rgba(202, 202, 202, 0.631);
+}
+
+
+
+.L-title {
+
+color: black;
+
+}
+
+.L-link {
+    text-decoration: none;
+}
+
+.button-link2 {
+    color: $text-white;
+    font-size: 0.75vw;
+    text-decoration: none;
+}
+
+.b-2 {
+
+    @include b-align();
+
+    background-color: $text-gold-color;
+    border: none;
+    border-radius: 0.3vw;
+    width: 14vw;
+    height: 3.8vw;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(128, 128, 128, 0.85);
+    
+}
+
+.img-con {
+    border-radius: 50%;
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.name-link {
+    text-decoration: none;
+    color: $text-gold-color;
+   font-family:  $bold-font;
+   font-size: 1.35vw;
+}
+
+.S-link {
+    color: grey;
+    font-family:  $bold-font;
+    font-size: 1.1vw;
+}
+
+.s3 p {
+    font-family: $main-font;
+    color: rgb(112, 112, 112);
+    font-size: 3vw;
+    font-weight: lighter;
+}
+
+.b-3 {
+    @include b-align();
+    background-color: #6EBFC2;
+    border: none;
+    border-radius: 0.3vw;
+    width: 10vw;
+    height: 3.8vw;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.85);
+    
+}
+
+.button-link2 {
+    text-decoration: none;
+    color: $text-white;
+    font-size: 1.2vw;
+    font-weight: bolder;
+}
+
+.f-img {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.s2 {
+    background-image: linear-gradient(to top, rgb(238, 238, 238), white);
+}
+
+.s-2 {
+    background-image: white;
+}
+
+
+@import "./Odin-framework"
