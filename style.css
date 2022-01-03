@@ -316,7 +316,7 @@ header nav {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  height: 60vw;
+  height: auto;
 }
 
 .s-con-1 {
@@ -631,4 +631,10 @@ footer {
           justify-content: center;
   line-height: 2vw;
 }
+
+@media (max-width: 600px) {
+  h2, h3 {
+      font-size: 9px;
+  }
+ }
 /*# sourceMappingURL=style.css.map */
